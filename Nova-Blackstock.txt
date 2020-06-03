@@ -1,0 +1,149 @@
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+                                    
+                                    I SPENT TOO MUCH TIME ON THE CODEPEN PART
+
+    1. What is Semantic HTML?
+            It provides meaningful context.
+
+    2. What is HTML used for?
+            It codes a semantic structure which will host programs.
+
+    3. What is an attribute and where do we put it?
+
+            An attribute applys value to enclosed text content.
+                <tag ATTRIBUTE:"value">etc</tag>
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+            It is a header style tag, for very sparing use with emphasis. Also SEO concerns.
+
+    5. Name two tags that have required attributes
+            <img src="url">
+            <a href="url">
+
+    6. What do we put in the head of our HTML document? 
+
+            'HTML tag','title tag','head tag','body tag','close HTML tag'
+
+    7. What is an id? 
+            It is a way of categorizing code in specific areas to be acted upon.
+
+    8. What elements can I add an id to? 
+
+    9. How many times can I use the same id on a page? 
+            One use of an id is most appropriate.
+
+    10. What is a class? 
+            Classes categorize code generally to be acted upon.
+
+    11. What elements can I add a class to? 
+
+    12. How many times can I use the same class on a page? 
+            You can use the same class prolifically.
+
+    13. How do I get my link to open in a new tab?
+            You need to use
+                <nav>
+                    <a href:"url" target="_blank">etc</a>
+                </nav>              
+
+    14. What is the alt attribute in the image tag used for? 
+            It describes images for those with vision impairment.
+
+    15. How do I reference an id?
+            #
+
+    16. What is the difference between a section and a div
+            Section is a grammatical term which provides semantic context. Div 
+            organizes cells of information to be stylized in CSS or otherwise acted upon by
+            an external programming language.
+
+    17. What is CSS used for? 
+            To stylize information.
+    18. How to we select an element? Example - every h2 on the page
+
+    19. What is the difference between a class and an id? - Give me an example of when 
+        I might use each one
+
+            Id is useful to apply CSS to individualized instances in which distributing
+            the effects of {property: value;} outside of a block of code is undesireable.
+
+            Class is useful to Apply CSS to generalized categories where widespread
+            distribution of {property: value;} is sought.
+
+            I would also imagine these category types are useful when higher level languages
+            are integrated into the semantic structure.
+
+    20. How do we select classes in CSS?
+            .class
+
+    21. How do we select a p element with a single class of “human””?
+
+    22. What is a parent child selector? When would this be useful? 
+
+    23. How do you select all links within a div with the class of sidebar?
+
+    24. What is a pseudo selector?
+
+    25. What do we use the change the spacing between lines?
+            <br> ad nauseam...
+
+    26. What do we use to change the spacing between letters?
+                selector {
+                        letter-spacing: #px
+                }
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+            selector {
+                text-transform: uppercase 
+                    ...         lowercase
+                    ...         capitalize
+            }
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+    29. How do I select everything on the page? 
+            I use Ctrl+A
+
+    30. How do I write a comment in CSS?
+            /*comment*/                                        
+                        
+
+    31. How do I find out what file I am in, when I am using the command line?    
+            I don't think you mean using change directory. Pressing enter
+             with no commands will show you the dir you're in. Will look up how to find the 
+             file you are in.
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+            ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+            rm
+
+    34. Why should I use version control? 
+            1) Saving and Reloading
+            2) Enables hierarchy of access
+            3) Broadens collaborative potential
+
+    35. How often should I commit to github?
+                After around half an hour or substantial changes are made.
+
+    36. What is the command we would use to push our repo up to github? 
+
+    37. Walk me through Lambda's git flow. 
+            I will go through this source later and update this answer by manually describing
+            the steps: 
+            https://www.notion.so/GitFlow-step-by-step-a764163309754e23b1b9c4077b1653cc
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+
+    2. What happens when an element is positioned absolutely? 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
